@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/game.css"/>
+    <script src="scripts/jquery-1.7.2.js"></script>
+    <script src="scripts/game.js"></script>
+</head>
+<body>
+<div id="game">
+    <div id="gameUI">
+        <div id="gameFog"></div>
+        <div id="gameIntro">
+            <div class="gameTitle">
+                <img src="images/title.png" alt="萌萌保龄球"/>
+                <p id="gamePlay" class="gameStart"></p>
+                <p id="gameIntroduce"></p>
+                <div style="clear:both;"></div>
+            </div>
+            <div class="gameDetailInfo1">
+                <img src="images/story1.png" alt="故事"/>
+                <p class="nextPage1"></p>
+                <div style="clear: right"></div>
+            </div>
+            <div class="gameDetailInfo2">
+                <img src="images/story2.png" alt="故事"/>
+                <p class="nextPage2"></p>
+            </div>
+            <div class="gameDetailInfo3">
+                <img src="images/rules.png" alt="故事"/>
+                <p class="nextPage3"></p>
+            </div>
+            <div class="gameDetailInfo4">
+                <img src="images/question.png" alt="故事"/>
+                <div>
+                    <p class="yes"></p>
+                    <p class="no"></p>
+                    <div style="clear: both"></div>
+                </div>
+            </div>
+            <div class="gameDetailInfo5">
+                <img src="images/idonot.png" alt="故事"/>
+                <p class="back"></p>
+            </div>
+            <div class="gameDetailInfo6">
+                <img src="images/ido.png" alt="故事"/>
+                <p class="startlit"></p>
+            </div>
+        </div>
+        <div id="gameStats">
+            <div class="count">
+                <p><span><img src="images/res.png" alt=""/></span> <span id="gameRemaining"></span></p>
+                <p><span><img src="images/clicks.png" alt=""/></span> <span class="gameScore"></span></p>
+            </div>
+            <p class="gameReset"></p>
+        </div>
+        <div id="gameComplete">
+            <img src="images/success.png" class="success" alt="你赢了！"/>
+            <p class="playAgain" id="successAgain"></p>
+        </div>
+        <div id="gameFail">
+            <img src="images/fail.png" class="success" alt="你输了！"/>
+            <p class="playAgain"></p>
+        </div>
+        <div id="goodGirl">
+            <p class="saveme"></p>
+            <p class="savemedia"></p>
+            <p class="saveyes"></p>
+            <p class="saveno"></p>
+            <div style="clear: both"></div>
+        </div>
+        <div class="saveNoResult">
+            <img src="images/savenoresult.png" alt="真是个看脸的世界"/>
+            <p class="back backhome"></p>
+        </div>
+    </div>
+    <canvas id="gameCanvas" width="350" height="600"></canvas>
+</div>
+</body>
+</html>

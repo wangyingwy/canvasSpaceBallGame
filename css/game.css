@@ -1,0 +1,42 @@
+html,body{height: 100%; width: 100%}
+canvas{display: block;}
+body{background: #000000; color: #ffffff; font-family: Verdana,Arial,sans-serif; font-size: 18px;}
+h1{font-size: 30px;}
+#game{height: 600px; left: 50%; margin: -300px 0 0 -175px; position: relative; top: 50%; width: 350px;}
+#gameCanvas{background: #ed82b9;position:absolute;z-index: -1000;}
+#gameUI{height: 600px; position: absolute; width: 350px;}
+#gameFog{width: 100%; height: 100%; position: absolute; background-color: #280514; opacity: 0.5; filter:alpha(opacity=50); z-index: -100;}
+#gameIntro{background: #d13878; margin-top: 100px; padding: 40px 0; text-align: center;}
+#gameComplete, #gameFail, .saveNoResult{background: #d13878; margin-top: 100px; padding: 40px 0;}
+#gameStats .gameReset{margin: 20px 20px 0 0; position: absolute; right: 0; top: 0;}
+.gameStart{background: url("../images/start.png") no-repeat; width: 114px; height: 41px; float: left; margin: 10px 30px; cursor: pointer;}
+.gameStart:hover{background: url("../images/starthover.png") no-repeat;}
+#gameIntroduce{background: url("../images/introduce.png") no-repeat; width: 114px; height: 41px; float: left; margin: 10px 30px; cursor: pointer;}
+#gameIntroduce:hover{background: url("../images/introducehover.png") no-repeat;}
+.gameReset{background: url("../images/reset.png") no-repeat; width: 51px; height: 25px; cursor: pointer;}
+.count{margin: 10px;}
+.gameDetailInfo1, .gameDetailInfo2, .gameDetailInfo3, .gameDetailInfo4, .gameDetailInfo5, .gameDetailInfo6, .saveNoResult img{text-align: left; padding-left: 20px;}
+.nextPage1{background: url("../images/npage.png") no-repeat center right; height: 26px; line-height: 26px; cursor: pointer; margin-right: 20px;}
+.nextPage1:hover{background: url("../images/npagehover.png") no-repeat center right;}
+.nextPage2{background: url("../images/npage.png") no-repeat center right; height: 26px; line-height: 26px; cursor: pointer; margin-right: 20px;}
+.nextPage2:hover{background: url("../images/npagehover.png") no-repeat center right;}
+.nextPage3{background: url("../images/npage.png") no-repeat center right; height: 26px; line-height: 26px; cursor: pointer; margin-right: 20px;}
+.nextPage3:hover{background: url("../images/npagehover.png") no-repeat center right;}
+.yes{background: url("../images/yes.png") no-repeat; width: 56px; height: 26px; line-height: 26px; cursor: pointer; float: right; margin: 0 10px;}
+.yes:hover{background: url("../images/yeshover.png") no-repeat;}
+.no{background: url("../images/no.png") no-repeat; width: 56px; height: 26px; line-height: 26px; cursor: pointer; float: right; margin: 0 10px;}
+.no:hover{background: url("../images/nohover.png") no-repeat;}
+.back{background: url("../images/back.png") no-repeat center right; height: 26px; line-height: 26px; cursor: pointer; margin-right: 20px;}
+.back:hover{background: url("../images/backhover.png") no-repeat center right;}
+.startlit{background: url("../images/start1.png") no-repeat center right; height: 30px; line-height: 30px; cursor: pointer; margin-right: 20px;}
+.startlit:hover{background: url("../images/start1hover.png") no-repeat center right;}
+.playAgain{background: url("../images/playagain.png") no-repeat center center; height: 40px; line-height: 40px; cursor: pointer; margin-top: 10px;}
+.playAgain:hover{background: url("../images/playagainhover.png") no-repeat center center;}
+.success{padding-left: 20px;}
+.saveme{cursor: pointer; background: url("../images/haoguniang.png") no-repeat center center; height: 157px; line-height: 157px; margin-top: 10px;}
+.saveme:hover{background: url("../images/haogunianghover.png") no-repeat center center;}
+.savemedia{margin-top: 30px; text-align: center;background: url("../images/savame.png") no-repeat center center; height: 65px; line-height: 65px;}
+.saveyes{background: url("../images/saveyes.png") no-repeat center center; float: left; width: 82px; height: 38px; line-height: 18px; margin: 20px 45px;}
+.saveyes:hover{background: url("../images/saveyeshover.png") no-repeat center center;}
+.saveno{background: url("../images/saveno.png") no-repeat center center; float: left; width: 82px; height: 38px; line-height: 18px; margin: 20px 45px;}
+.saveno:hover{background: url("../images/savenohover.png") no-repeat center center;}
