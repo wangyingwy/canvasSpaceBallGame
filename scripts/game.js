@@ -71,8 +71,9 @@ $(document).ready(function() {
         player.vY = 0;
     };
 
+    //重置和启动游戏
     function startGame() {
-        uiScore.html("0");
+        uiScore.html("0");//当游戏开始的时候显示统计屏幕
         uiStats.show();
 
         //定义行星数据
